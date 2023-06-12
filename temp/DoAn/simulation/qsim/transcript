@@ -1,0 +1,12 @@
+# do 32bit_Multipler.do 
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module \16bit_Multipler 
+# 
+# Top level modules:
+# 	\16bit_Multipler 
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# ** Error: 32bit_Multipler.vt(29): near "16": syntax error, unexpected INTEGER NUMBER, expecting IDENTIFIER or automatic or TYPE_IDENTIFIER or static
+# ** Error: c:/altera/13.0sp1/modelsim_ase/win32aloem/vlog failed.
+# Executing ONERROR command at macro ./32bit_Multipler.do line 4
