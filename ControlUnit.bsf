@@ -20,15 +20,15 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 192 144)
+	(rect 64 64 240 192)
 	(text "ControlUnit" (rect 5 0 66 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
-		(pt 0 32)
+		(pt 0 104)
 		(input)
 		(text "CLK" (rect 0 0 23 14)(font "Arial" (font_size 8)))
-		(text "CLK" (rect 21 27 44 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32))
+		(text "CLK" (rect 21 99 44 113)(font "Arial" (font_size 8)))
+		(line (pt 0 104)(pt 16 104))
 	)
 	(port
 		(pt 176 32)
@@ -38,25 +38,32 @@ applicable agreement for further details.
 		(line (pt 176 32)(pt 160 32)(line_width 3))
 	)
 	(port
-		(pt 176 48)
-		(output)
-		(text "ADDR_RDA[2..0]" (rect 0 0 95 14)(font "Arial" (font_size 8)))
-		(text "ADDR_RDA[2..0]" (rect 60 43 155 57)(font "Arial" (font_size 8)))
-		(line (pt 176 48)(pt 160 48)(line_width 3))
-	)
-	(port
 		(pt 176 64)
 		(output)
-		(text "ADDR_RDB[2..0]" (rect 0 0 94 14)(font "Arial" (font_size 8)))
-		(text "ADDR_RDB[2..0]" (rect 61 59 155 73)(font "Arial" (font_size 8)))
+		(text "ADDR_RDA[2..0]" (rect 0 0 95 14)(font "Arial" (font_size 8)))
+		(text "ADDR_RDA[2..0]" (rect 60 59 155 73)(font "Arial" (font_size 8)))
 		(line (pt 176 64)(pt 160 64)(line_width 3))
 	)
 	(port
 		(pt 176 80)
 		(output)
-		(text "Input_select[3..0]" (rect 0 0 96 14)(font "Arial" (font_size 8)))
-		(text "Input_select[3..0]" (rect 59 75 155 89)(font "Arial" (font_size 8)))
+		(text "ADDR_RDB[2..0]" (rect 0 0 94 14)(font "Arial" (font_size 8)))
+		(text "ADDR_RDB[2..0]" (rect 61 75 155 89)(font "Arial" (font_size 8)))
 		(line (pt 176 80)(pt 160 80)(line_width 3))
+	)
+	(port
+		(pt 176 96)
+		(output)
+		(text "Input_select[3..0]" (rect 0 0 96 14)(font "Arial" (font_size 8)))
+		(text "Input_select[3..0]" (rect 59 91 155 105)(font "Arial" (font_size 8)))
+		(line (pt 176 96)(pt 160 96)(line_width 3))
+	)
+	(port
+		(pt 40 0)
+		(output)
+		(text "AU_select" (rect 0 0 59 14)(font "Arial" (font_size 8)))
+		(text "AU_select" (rect 32 23 46 82)(font "Arial" (font_size 8))(vertical))
+		(line (pt 40 0)(pt 40 16))
 	)
 	(drawing
 		(rectangle (rect 16 16 160 112))

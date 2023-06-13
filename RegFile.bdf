@@ -53,22 +53,6 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 88 512 256 528)
-	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "WE" (rect 5 0 22 12)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
 	(rect 1296 424 1480 440)
 	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
 	(text "ADDR_RDA[2..0]" (rect 5 0 92 12)(font "Arial" ))
@@ -103,7 +87,7 @@ applicable agreement for further details.
 	(input)
 	(rect 568 368 752 384)
 	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
-	(text "AU_output[15..0]" (rect 5 0 89 12)(font "Arial" ))
+	(text "AU_output[15..0]" (rect 5 0 88 12)(font "Arial" ))
 	(pt 184 8)
 	(drawing
 		(line (pt 100 12)(pt 125 12))
@@ -119,7 +103,7 @@ applicable agreement for further details.
 	(input)
 	(rect 568 392 752 408)
 	(text "INPUT" (rect 141 0 169 10)(font "Arial" (font_size 6)))
-	(text "Input_select[3..0]" (rect 5 0 92 12)(font "Arial" ))
+	(text "Input_select[3..0]" (rect 5 0 91 12)(font "Arial" ))
 	(pt 184 8)
 	(drawing
 		(line (pt 100 12)(pt 125 12))
@@ -827,35 +811,6 @@ applicable agreement for further details.
 		(rectangle (rect 16 16 128 80))
 	)
 )
-(symbol
-	(rect 240 472 376 568)
-	(text "WriteSelect" (rect 5 0 69 14)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 80 25 92)(font "Arial" ))
-	(port
-		(pt 0 32)
-		(input)
-		(text "WS[7..0]" (rect 0 0 48 14)(font "Arial" (font_size 8)))
-		(text "WS[7..0]" (rect 21 27 69 41)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 16 32)(line_width 3))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "WE" (rect 0 0 18 14)(font "Arial" (font_size 8)))
-		(text "WE" (rect 21 43 39 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
-	)
-	(port
-		(pt 136 32)
-		(output)
-		(text "L[7..0]" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "L[7..0]" (rect 80 27 115 41)(font "Arial" (font_size 8)))
-		(line (pt 136 32)(pt 120 32)(line_width 3))
-	)
-	(drawing
-		(rectangle (rect 16 16 120 80))
-	)
-)
 (connector
 	(pt 1128 472)
 	(pt 1080 472)
@@ -869,11 +824,6 @@ applicable agreement for further details.
 (connector
 	(pt 1128 696)
 	(pt 1080 696)
-	(bus)
-)
-(connector
-	(pt 376 504)
-	(pt 400 504)
 	(bus)
 )
 (connector
@@ -1401,6 +1351,11 @@ applicable agreement for further details.
 	(text "Input_select[0]" (rect 912 730 924 803)(font "Arial" )(vertical))
 	(pt 928 808)
 	(pt 928 768)
+)
+(connector
+	(pt 256 504)
+	(pt 400 504)
+	(bus)
 )
 (junction (pt 912 712))
 (junction (pt 912 600))
