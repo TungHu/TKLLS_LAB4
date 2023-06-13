@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
 (symbol
-	(rect 1128 544 1384 704)
+	(rect 112 96 368 256)
 	(text "RegFile" (rect 5 0 46 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 144 25 156)(font "Arial" ))
 	(port
@@ -82,4 +82,66 @@ applicable agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 240 144))
 	)
+)
+(symbol
+	(rect 576 128 720 224)
+	(text "AU_16bit" (rect 5 0 56 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 80 31 92)(font "Arial" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "A[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "A[15..0]" (rect 21 27 65 41)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 16 32)(line_width 3))
+	)
+	(port
+		(pt 0 56)
+		(input)
+		(text "B[15..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
+		(text "B[15..0]" (rect 21 51 64 65)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56)(line_width 3))
+	)
+	(port
+		(pt 72 0)
+		(input)
+		(text "Select" (rect 0 0 35 14)(font "Arial" (font_size 8)))
+		(text "Select" (rect 64 25 78 60)(font "Arial" (font_size 8))(vertical))
+		(line (pt 72 0)(pt 72 17))
+	)
+	(port
+		(pt 144 32)
+		(output)
+		(text "Y[15..0]" (rect 0 0 44 14)(font "Arial" (font_size 8)))
+		(text "Y[15..0]" (rect 79 27 123 41)(font "Arial" (font_size 8)))
+		(line (pt 144 32)(pt 128 32)(line_width 3))
+	)
+	(drawing
+		(rectangle (rect 16 16 128 80))
+	)
+)
+(connector
+	(pt 368 128)
+	(pt 576 128)
+	(bus)
+)
+(connector
+	(pt 368 208)
+	(pt 576 208)
+	(bus)
+)
+(connector
+	(pt 576 208)
+	(pt 576 184)
+	(bus)
+)
+(connector
+	(pt 576 128)
+	(pt 576 160)
+	(bus)
+)
+(connector
+	(text "AU_output[15..0]" (rect 720 144 803 156)(font "Arial" ))
+	(pt 720 160)
+	(pt 752 160)
+	(bus)
 )

@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 160 112)
+	(rect 64 64 208 160)
 	(text "AU_16bit" (rect 5 0 56 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -31,18 +31,18 @@ applicable agreement for further details.
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
-		(pt 0 48)
+		(pt 0 56)
 		(input)
 		(text "B[15..0]" (rect 0 0 43 14)(font "Arial" (font_size 8)))
-		(text "B[15..0]" (rect 21 43 64 57)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 16 48)(line_width 3))
+		(text "B[15..0]" (rect 21 51 64 65)(font "Arial" (font_size 8)))
+		(line (pt 0 56)(pt 16 56)(line_width 3))
 	)
 	(port
-		(pt 0 64)
+		(pt 72 0)
 		(input)
 		(text "Select" (rect 0 0 35 14)(font "Arial" (font_size 8)))
-		(text "Select" (rect 21 59 56 73)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 16 64))
+		(text "Select" (rect 64 25 78 60)(font "Arial" (font_size 8))(vertical))
+		(line (pt 72 0)(pt 72 17))
 	)
 	(port
 		(pt 144 32)
