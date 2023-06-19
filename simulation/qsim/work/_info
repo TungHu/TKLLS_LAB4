@@ -4,11 +4,11 @@ K3
 cModel Technology
 Z0 dE:\altera\13.0sp1\lab4\simulation\qsim
 vmain
-Z1 !s100 h=hgnEnS?1?HF5:[^`Mh?1
-Z2 IF7=CD7lIVWS=3jKP`iZg@3
-Z3 Vko[^Nhd00DJT_VUJE1X`?0
+Z1 !s100 zcnUl_@9OmgBmIe876CJi3
+Z2 I;YS18;FXo[Q7XbzLlXj=M3
+Z3 V3lOnki:ZoLN<DcnZ6aR::2
 Z4 dE:\altera\13.0sp1\lab4\lab4\TKLLS_LAB4-main\simulation\qsim
-Z5 w1686799664
+Z5 w1686893307
 Z6 8main.vo
 Z7 Fmain.vo
 L0 31
@@ -19,71 +19,71 @@ Z9 !s90 -work|work|main.vo|
 Z10 o-work work -O0
 !i10b 1
 !s85 0
-Z11 !s108 1686799665.750000
+Z11 !s108 1686893308.628000
 Z12 !s107 main.vo|
 !s101 -O0
 vmain_vlg_check_tst
 !i10b 1
-!s100 GlPaDjUX8dP6dj4k09U?92
-I6SSbIgI93P?z3=KZW78S]0
-V`jSU@Ujj:5XZVMj[GEcSN3
+Z13 !s100 <`B[Vijbb]CRFD[L0IjbS0
+Z14 IPmd>36z>ABfNSOJ?E[@Ja3
+Z15 VTll^7[>M5>n>A3LF^@cbP0
 R4
-Z13 w1686799663
-Z14 8main.vt
-Z15 Fmain.vt
+R5
+Z16 8main.vt
+Z17 Fmain.vt
 L0 59
 R8
 r1
 !s85 0
 31
-Z16 !s108 1686799665.943000
-Z17 !s107 main.vt|
-Z18 !s90 -work|work|main.vt|
+Z18 !s108 1686893308.800000
+Z19 !s107 main.vt|
+Z20 !s90 -work|work|main.vt|
 !s101 -O0
 R10
 vmain_vlg_sample_tst
 !i10b 1
-!s100 C7@a>@U1@Xg`9eXa`lIMS1
-I7=P^LKh^FIQ?b0lM1l5ll3
-VP:aOc`D?=FW51W3hGj?BF1
+Z21 !s100 C7@a>@U1@Xg`9eXa`lIMS1
+Z22 I7=P^LKh^FIQ?b0lM1l5ll3
+Z23 VP:aOc`D?=FW51W3hGj?BF1
 R4
-R13
-R14
-R15
+R5
+R16
+R17
 L0 29
 R8
 r1
 !s85 0
 31
-R16
-R17
 R18
+R19
+R20
 !s101 -O0
 R10
 vmain_vlg_vec_tst
 !i10b 1
-!s100 gYcWKC<DN5l??GlLRlY]b2
-I>=[kS0klI>O6O3T:TP:Ob3
-Z19 VHZma`Q?n[z_A]1=F?<UDB3
+!s100 T1nkkif0j6Xmg2BUkLPVm2
+Iz9NBC4H>:cQ4FFKkUo4FD3
+Z24 VHZma`Q?n[z_A]1=F?<UDB3
 R4
-R13
-R14
-R15
-L0 1409
+R5
+R16
+R17
+Z25 L0 1017
 R8
 r1
 !s85 0
 31
-R16
-R17
 R18
+R19
+R20
 !s101 -O0
 R10
 vmux8_16bit
-Z20 IHj^Z<Lm<TbhBo4mA_U:Ej2
-Z21 VKVQOon944_<=?GYAh1J@C0
-Z22 dE:\altera\13.0sp1\lab4\simulation\qsim
-Z23 w1686114542
+Z26 IHj^Z<Lm<TbhBo4mA_U:Ej2
+Z27 VKVQOon944_<=?GYAh1J@C0
+Z28 dE:\altera\13.0sp1\lab4\simulation\qsim
+Z29 w1686114542
 R6
 R7
 L0 31
@@ -91,75 +91,75 @@ R8
 r1
 31
 R10
-Z24 !s100 XY4MEJIz`55bRPALY=;Y@0
-Z25 !s108 1686114547.445000
+Z30 !s100 XY4MEJIz`55bRPALY=;Y@0
+Z31 !s108 1686114547.445000
 R12
 R9
 !i10b 1
 !s85 0
 !s101 -O0
 vmux8_16bit_vlg_check_tst
-Z26 IoERn^URLP?BS0iYIb<:?j1
-Z27 VzVYVZEe`T8FibJKOQM08F0
-R22
-Z28 w1686114538
-R14
-R15
+Z32 IoERn^URLP?BS0iYIb<:?j1
+Z33 VzVYVZEe`T8FibJKOQM08F0
+R28
+Z34 w1686114538
+R16
+R17
 L0 73
 R8
 r1
 31
-Z29 !s108 1686114547.843000
-Z30 !s107 main.vt|
-R18
+Z35 !s108 1686114547.843000
+Z36 !s107 main.vt|
+R20
 R10
-Z31 !s100 eWcDGUBKOI::GDhF04f6z1
+Z37 !s100 eWcDGUBKOI::GDhF04f6z1
 !i10b 1
 !s85 0
 !s101 -O0
 vmux8_16bit_vlg_sample_tst
-Z32 Io@:UaTMEPTC=DA@8R@lEI0
-Z33 VoT8Yz^Yhe=ODJd?V?W4LQ1
-R22
+Z38 Io@:UaTMEPTC=DA@8R@lEI0
+Z39 VoT8Yz^Yhe=ODJd?V?W4LQ1
 R28
-R14
-R15
+R34
+R16
+R17
 L0 29
 R8
 r1
 31
-R29
-R30
-R18
+R35
+R36
+R20
 R10
-Z34 !s100 A9jP6YWM]6Z>`FN5_el<C2
+Z40 !s100 A9jP6YWM]6Z>`FN5_el<C2
 !i10b 1
 !s85 0
 !s101 -O0
 vmux8_16bit_vlg_vec_tst
-Z35 I0LBl>@5e:7?@g<TVYO3aW1
-Z36 VzZo9_ckfWB2n[UR4SDZQY1
-R22
+Z41 I0LBl>@5e:7?@g<TVYO3aW1
+Z42 VzZo9_ckfWB2n[UR4SDZQY1
 R28
-R14
-R15
-Z37 L0 437
+R34
+R16
+R17
+Z43 L0 437
 R8
 r1
 31
-R29
-R30
-R18
+R35
+R36
+R20
 R10
-Z38 !s100 am]MaaI0GkkNYSh<MUTUa3
+Z44 !s100 am]MaaI0GkkNYSh<MUTUa3
 !i10b 1
 !s85 0
 !s101 -O0
 vRegFile
-Z39 IdzN`;gb8_>X<e`_3<gBbP3
-Z40 VLSTGe1icc5H?z1=1<^_C43
+Z45 IdzN`;gb8_>X<e`_3<gBbP3
+Z46 VLSTGe1icc5H?z1=1<^_C43
 R4
-Z41 w1686799557
+Z47 w1686799557
 R6
 R7
 L0 31
@@ -168,30 +168,30 @@ r1
 31
 R9
 R10
-Z42 n@reg@file
-Z43 !s100 >1QTk5n6FZjVenJc6H6;m0
-Z44 !s108 1686799559.853000
+Z48 n@reg@file
+Z49 !s100 >1QTk5n6FZjVenJc6H6;m0
+Z50 !s108 1686799559.853000
 R12
 !i10b 1
 !s85 0
 !s101 -O0
 vRegFile_vlg_vec_tst
-Z45 I>YDGd?BeH6Fg=4UfP_>@30
-Z46 VYd?ERe:i2GK^k]KVdX4nR2
+Z51 I>YDGd?BeH6Fg=4UfP_>@30
+Z52 VYd?ERe:i2GK^k]KVdX4nR2
 R4
-Z47 w1686799556
-R14
-R15
+Z53 w1686799556
+R16
+R17
 L0 29
 R8
 r1
 31
-R18
+R20
 R10
-Z48 n@reg@file_vlg_vec_tst
-Z49 !s100 l;HDjVB:TLfh8][00X0bZ1
-Z50 !s108 1686799560.087000
-R30
+Z54 n@reg@file_vlg_vec_tst
+Z55 !s100 l;HDjVB:TLfh8][00X0bZ1
+Z56 !s108 1686799560.087000
+R36
 !i10b 1
 !s85 0
 !s101 -O0

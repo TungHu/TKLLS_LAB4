@@ -26,5 +26,5 @@
 # Loading work.main_vlg_check_tst
 # Loading cycloneii_ver.CYCLONEII_PRIM_DFFE
 # Simulation passed !
-# ** Note: $finish    : main.vt(1405)
+# ** Note: $finish    : main.vt(1013)
 #    Time: 1 us  Iteration: 0  Instance: /main_vlg_vec_tst/tb_out

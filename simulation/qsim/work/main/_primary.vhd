@@ -2,19 +2,30 @@ library verilog;
 use verilog.vl_types.all;
 entity main is
     port(
-        D0              : out    vl_logic;
+        hOA             : out    vl_logic;
         CLK             : in     vl_logic;
-        D1              : out    vl_logic;
-        D2              : out    vl_logic;
-        D3              : out    vl_logic;
-        Alu             : out    vl_logic_vector(2 downto 0);
-        ins             : out    vl_logic_vector(7 downto 0);
-        OA              : out    vl_logic_vector(15 downto 0);
         I               : in     vl_logic_vector(15 downto 0);
-        OB              : out    vl_logic_vector(15 downto 0);
-        Output          : out    vl_logic_vector(15 downto 0);
-        RDA             : out    vl_logic_vector(2 downto 0);
-        RDB             : out    vl_logic_vector(2 downto 0);
-        WR              : out    vl_logic_vector(7 downto 0)
+        hOB             : out    vl_logic;
+        hOC             : out    vl_logic;
+        hOD             : out    vl_logic;
+        hOE             : out    vl_logic;
+        hOF             : out    vl_logic;
+        hOG             : out    vl_logic;
+        tOA             : out    vl_logic;
+        tOB             : out    vl_logic;
+        tOC             : out    vl_logic;
+        tOD             : out    vl_logic;
+        tOE             : out    vl_logic;
+        tOF             : out    vl_logic;
+        tOG             : out    vl_logic;
+        oOA             : out    vl_logic;
+        oOB             : out    vl_logic;
+        oOC             : out    vl_logic;
+        oOD             : out    vl_logic;
+        oOE             : out    vl_logic;
+        oOF             : out    vl_logic;
+        oOG             : out    vl_logic;
+        Sign            : out    vl_logic;
+        Output          : out    vl_logic_vector(15 downto 0)
     );
 end main;
